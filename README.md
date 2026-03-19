@@ -18,25 +18,25 @@ This project performs Exploratory Data Analysis and builds a Random Forest model
 ## Discussion On HyperParameter Tunin
 ## Hyperparameters Tuned
 
-1.n_estimators
+# 1.n_estimators
 
 Number of trees in the forest
 
 More trees → better performance but slower
 
-2.max_depth
+# 2.max_depth
 
 Maximum depth of each tree
 
 Prevents overfitting
 
-3.min_samples_split
+# 3.min_samples_split
 
 Minimum samples required to split a node
 
 Controls model complexity
 
-4.min_samples_leaf
+# 4.min_samples_leaf
 
 Minimum samples in a leaf node
 
@@ -54,6 +54,6 @@ Improves F1-score (important for toxicity classification)
 
 Balances precision & recall
 
-##Conclusion
+## Conclusion
 
 After tuning hyperparameters using Grid Search and Random Search, the model performance improved compared to the default Random Forest model. Grid Search produced slightly better results but required more computation time, while Random Search provided a faster alternative with competitive performance.
